@@ -29,9 +29,30 @@
 		3F3F9B832D72093D00E15CC1 /* Page_SwipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Page_SwipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3F3F9B9A2D75459300E15CC1 /* Exceptions for "Page_Swip" folder in "Page_SwipTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				UserSettings.swift,
+			);
+			target = 3F3F9B782D72093D00E15CC1 /* Page_SwipTests */;
+		};
+		3F3F9B9B2D75459300E15CC1 /* Exceptions for "Page_Swip" folder in "Page_SwipUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				UserSettings.swift,
+			);
+			target = 3F3F9B822D72093D00E15CC1 /* Page_SwipUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3F3F9B6B2D72093C00E15CC1 /* Page_Swip */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F3F9B9A2D75459300E15CC1 /* Exceptions for "Page_Swip" folder in "Page_SwipTests" target */,
+				3F3F9B9B2D75459300E15CC1 /* Exceptions for "Page_Swip" folder in "Page_SwipUITests" target */,
+			);
 			path = Page_Swip;
 			sourceTree = "<group>";
 		};
